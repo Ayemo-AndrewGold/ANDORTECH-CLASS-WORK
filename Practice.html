@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal Learning Space</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">MyLearningSpace</div>
+                <div class="user-greeting">
+                    <div class="avatar">S</div>
+                    <div class="greeting">Welcome back, <span id="student-name">Student</span>!</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <div class="nav-links">
+                <a href="#" class="active">Dashboard</a>
+                <a href="#">My Courses</a>
+                <a href="#">Assignments</a>
+                <a href="#">Calendar</a>
+                <a href="#">Resources</a>
+                <a href="#">Messages</a>
+                <a href="#">Settings</a>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="container dashboard">
+        <section class="welcome-banner">
+            <h1>Hello, <span id="student-name-banner">Student</span>!</h1>
+            <p>It's great to see you again. You're making excellent progress in your studies. Keep up the good work!</p>
+            <a href="#" class="cta-button">Continue Learning</a>
+        </section>
+        
+        <section class="stats-container">
+            <div class="stat-card">
+                <h3>Course Completion</h3>
+                <p>You've completed 68% of your current courses</p>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 68%; background-color: #6c5ce7;"></div>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <h3>Assignment Score</h3>
+                <p>Your average score is 92/100</p>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 92%; background-color: #26de81;"></div>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <h3>Study Streak</h3>
+                <p>You've been learning for 12 days in a row!</p>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 80%; background-color: #fdcb6e;"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="upcoming-section">
+            <div class="section-header">
+                <h2 class="section-title">Upcoming Tasks</h2>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            
+            <div class="task-list">
+                <div class="task-item">
+                    <div class="task-info">
+                        <h4>Research Paper Draft</h4>
+                        <div class="task-meta">Advanced Literature • Due in 2 days</div>
+                    </div>
+                    <span class="task-status status-urgent">Due Soon</span>
+                </div>
+                
+                <div class="task-item">
+                    <div class="task-info">
+                        <h4>Midterm Exam</h4>
+                        <div class="task-meta">Biology 101 • May 22, 2025</div>
+                    </div>
+                    <span class="task-status status-upcoming">Upcoming</span>
+                </div>
+                
+                <div class="task-item">
+                    <div class="task-info">
+                        <h4>Group Project Submission</h4>
+                        <div class="task-meta">Business Ethics • May 25, 2025</div>
+                    </div>
+                    <span class="task-status status-upcoming">Upcoming</span>
+                </div>
+                
+                <div class="task-item">
+                    <div class="task-info">
+                        <h4>Weekly Quiz</h4>
+                        <div class="task-meta">Data Structures • May 17, 2025</div>
+                    </div>
+                    <span class="task-status status-completed">Completed</span>
+                </div>
+            </div>
+        </section>
+        
+        <section class="recent-courses-section">
+            <div class="section-header">
+                <h2 class="section-title">Your Courses</h2>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            
+            <div class="recent-courses">
+                <div class="course-card">
+                    <div class="course-image">CSC</div>
+                    <div class="course-info">
+                        <h3>Data Structures</h3>
+                        <p>Learn about arrays, linked lists, trees, and algorithms.</p>
+                        <div class="course-meta">
+                            <span>Progress: 75%</span>
+                            <span>Prof. Johnson</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-image">BIO</div>
+                    <div class="course-info">
+                        <h3>Biology 101</h3>
+                        <p>Introduction to cellular biology and basic life systems.</p>
+                        <div class="course-meta">
+                            <span>Progress: 62%</span>
+                            <span>Dr. Martinez</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card">
+                    <div class="course-image">LIT</div>
+                    <div class="course-info">
+                        <h3>Advanced Literature</h3>
+                        <p>Critical analysis of 19th century literary works.</p>
+                        <div class="course-meta">
+                            <span>Progress: 48%</span>
+                            <span>Prof. Williams</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">My Profile</a></li>
+                        <li><a href="#">Academic Calendar</a></li>
+                        <li><a href="#">Course Catalog</a></li>
+                        <li><a href="#">Library Resources</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Technical Help</a></li>
+                        <li><a href="#">Academic Advising</a></li>
+                        <li><a href="#">Student Services</a></li>
+                        <li><a href="#">Counseling Center</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Student Forums</a></li>
+                        <li><a href="#">Study Groups</a></li>
+                        <li><a href="#">Events Calendar</a></li>
+                        <li><a href="#">Campus News</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 MyLearningSpace. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // This JavaScript would normally fetch student data from a backend
+        // For demonstration, we'll set a placeholder name
+        document.addEventListener('DOMContentLoaded', function() {
+            // In a real implementation, this would be replaced with an API call
+            // to get the student's actual information
+            const studentName = "Alex"; // This would be dynamically populated
+            
+            // Update all instances of the student name
+            const nameElements = document.querySelectorAll('#student-name, #student-name-banner');
+            nameElements.forEach(element => {
+                element.textContent = studentName;
+            });
+            
+            // Update avatar initial
+            const avatarElement = document.querySelector('.avatar');
+            if (avatarElement) {
+                avatarElement.textContent = studentName.charAt(0);
+            }
+            
+            // You could also dynamically update:
+            // - Current progress in courses
+            // - Assignment scores
+            // - Study streak
+            // - Upcoming tasks based on actual deadlines
+            // - Current enrolled courses
+        });
+    </script>
+</body>
+</html>
